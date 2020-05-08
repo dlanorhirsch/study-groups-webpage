@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+/* NAV BAR */
+.container-one {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: auto;
+}
+.nav {
+  background: #000;
+  grid-area: 1/1/2/8;
+  height: 70px;
+  border-bottom: 1px solid #fff;
+ 
+}
+.nav-list {
+  display: flex;
+  float: right;
+  list-style-type: none;
+  margin-right: 300px;
+  position: sticky;
+}
+.nav-item {
+  margin: 20px;
+  color: orange;
+}
+.title {
+  /* display: grid;
+  grid-area: 2/2/3/4; */
+  color: white;
+  font-size: 1.5em;
+  font-family:'Montserrat Subrayada', sans-serif;
+  float: left;
+  margin-left: 200px;
+}
+
+/* @media(min-width: 500px) {
+  .nav {
+    height: 130px;
+  }
+  .nav-list {
+    margin-right: 30px;
+  }
+  .nav-item {
+    margin: 10px;
+  }
+  .title {
+    margin-left: 25%;
+    margin-bottom: 5px;
+  }
+  .rnd-image {
+    width: 90%;
+  }
+  .about-tlc-header {
+    grid-area: 2/2/3/7;
+  }
+
+} */
+/* HEADER SECTION */
+.header {
+  display: grid;
+  grid-area: 2/1/3/8;
+  background: url("/images/marvin-meyer-SYTO3xs06fU-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 335px;
+  background-blend-mode: multiply;
+  background-color: rgba(28, 28, 75, 0.872);
+  opacity: .93;
+  z-index: -1;
+
+
+}
+.about-ltc {
+  grid-area: 2/2/3/5;
+}
+.about-ltc-header {
+  color: #fff;
+}
+.about-ltc-para {
+  color: white;
+}
+/* MAIN SECTION */
+.about-us {
+  grid-area: 3/2/4/5;
+}
+.about-us-header {
+  font-weight: bold;
+}
+.tech-image {
+  grid-area: 3/5/4/8;
+  margin-top: -200px;
+}
+.rnd-image {
+  display: grid;
+  border-radius: 50%;
+  max-width: 450px;
+  border: 5px solid #fff;
+}
+.date-time {
+  margin-top: 50px;
+  margin-left: 30px;
+  grid-area: 3/2/4/5;
+  font-size: 1.3em;
+
+}
+.footer {
+  display: grid;
+  grid-area: 4/3/5/4;
+}
