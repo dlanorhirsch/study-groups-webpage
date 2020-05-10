@@ -1,0 +1,50 @@
+@media only screen and (max-width: 1199px) and (min-width: 768px) {
+  .header-logo {
+    grid-area: 1/2/2/7;
+  }
+
+  .who-title {
+    grid-area: 2/2/3/9;
+  }
+  .who-para {
+    grid-area: 2/2/3/12;
+  }
+  .what-title {
+    grid-area: 3/2/4/6;
+  }
+  .what-para {
+    grid-area: 3/2/4/12;
+  }
+  .card-section-header {
+  grid-area: 4/2/5/9;
+  } 
+  .card-section-header {
+    grid-area: 4/2/5/11;
+  }
+  .card-section-groups {
+    grid-area: 5/2/6/12;
+    margin: 0px 0px 40px 0px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+  }
+.card-info-container {
+  width: 300px;
+  }
+  .card-info-detail {
+    margin-top: 15px;
+  }
+  .info-logo {
+    margin-top: 35px;
+    margin-left: 10px;
+    width: 50%;
+    max-width: 75px;
+  }
+  .about-title {
+    grid-area: 6/2/7/7;
+  }
+  .about-para {
+    grid-area: 7/2/8/12;
+  }
+
+
+}
